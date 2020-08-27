@@ -16,7 +16,11 @@ header, body, nav, footer {
 	.mainContent{ grid-area: content; background: white; }
 	.mainFooter{ grid-area: footer; background: #DCDCDC; }
 /*grid fim*/
-
+@media screen and (min-width: 730px){
+		article {
+			display: flex;
+			flex-wrap: wrap;
+			}
 	/*breakingpoints
 	@media screen and (max-width: 768px){}*/
 
