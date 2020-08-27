@@ -17,10 +17,17 @@ header, body, nav, footer {
 	.mainFooter{ grid-area: footer; background: #DCDCDC; }
 /*grid fim*/
 @media screen and (min-width: 730px){
-		article {
-			display: flex;
-			flex-wrap: wrap;
-			}
+		article{
+		display: flex;
+		flex-wrap: wrap;
+		width: 500px;
+		margin: 0 auto;
+		overflow: auto;	
+		}
+		
+		.flex > article {
+		flex: 1 1 200px;
+		}}
 	/*breakingpoints
 	@media screen and (max-width: 768px){}*/
 
